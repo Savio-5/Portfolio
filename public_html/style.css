@@ -24,9 +24,11 @@ li{
     margin: 1rem;
 }
 
+
 footer{
     padding: 1rem;
 }
+
 
 /*############################## Header Navbar ##############################*/
 .logo{
@@ -36,7 +38,7 @@ footer{
 }
 
 .header{
-    background-color: #769FCD;
+    /* background-color: #769FCD; */
 }
 
 .header-nav{
@@ -55,6 +57,25 @@ footer{
 }
 
 /*############################## Main ##############################*/
+
+.about{
+    height: 50vh;
+}
+
+.qualification{
+    height: 70vh;
+}
+
+@media screen and (max-width: 576px) {
+    .qualification{
+        height: 100vh;
+    }
+}
+
+.contact{
+    height: 50vh;
+}
+
 .section-title{
     text-align: center;
 }
@@ -83,12 +104,12 @@ main div section{
 
 /*############################## Footer ##############################*/
 .footer-bar{
-    background-color: #769FCD;
+    /* background-color: #769FCD; */
 }
 
 .footer-copyright{
     text-align: center;
-    background-color: #112030;
+    /* background-color: #112030; */
 }
 
 .footer-nav{
@@ -100,5 +121,9 @@ main div section{
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+}
+
+.copyright{
+    font-weight: bold;
 }
 
