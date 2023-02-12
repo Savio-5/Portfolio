@@ -20,7 +20,7 @@ a{
 }
 
 li{
-    list-style: none;
+    /* list-style: none; */
     margin: 1rem;
 }
 
@@ -37,9 +37,9 @@ footer{
     font-weight: bold;
 }
 
-.header{
-    /* background-color: #769FCD; */
-}
+/* .header{
+    background-color: #769FCD;
+} */
 
 .header-nav{
     margin: 0;
@@ -104,12 +104,11 @@ main div section{
 
 /*############################## Footer ##############################*/
 .footer-bar{
-    /* background-color: #769FCD; */
+    background-color: #769FCD;
 }
 
 .footer-copyright{
     text-align: center;
-    /* background-color: #112030; */
 }
 
 .footer-nav{
@@ -121,6 +120,11 @@ main div section{
     padding: 0;
     display: flex;
     justify-content: space-evenly;
+}
+
+
+.footer-nav-ul-li{
+    list-style: none;
 }
 
 .copyright{
