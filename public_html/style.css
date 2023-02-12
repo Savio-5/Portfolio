@@ -31,6 +31,12 @@ footer{
 /*############################## Header Navbar ##############################*/
 .logo{
     margin: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header{
+    background-color: #769FCD;
 }
 
 .header-nav{
@@ -40,12 +46,12 @@ footer{
 
 .nav-header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /* background-color: #769FCD; */
 }
 
 .header-nav-ul{
-    display: flex;
+    margin-left: auto;
 }
 
 /*############################## Main ##############################*/
@@ -82,6 +88,7 @@ main div section{
 
 .footer-copyright{
     text-align: center;
+    background-color: #112030;
 }
 
 .footer-nav{
