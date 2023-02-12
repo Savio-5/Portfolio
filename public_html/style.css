@@ -1,0 +1,97 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 9 Feb, 2023, 10:37:31 AM
+    Author     : Savio Silveira
+*/
+
+
+/**/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+    margin: 1rem;
+}
+
+footer{
+    padding: 1rem;
+}
+
+/*############################## Header Navbar ##############################*/
+.logo{
+    margin: 2rem;
+}
+
+.header-nav{
+    margin: 0;
+    margin-right: auto;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #769FCD; */
+}
+
+.header-nav-ul{
+    display: flex;
+}
+
+/*############################## Main ##############################*/
+.section-title{
+    text-align: center;
+}
+
+main div{
+    padding: 1rem
+}
+
+main div section{
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.main-div-section1{
+    background-color: #F7FBFC;
+}
+
+.main-div-section2{
+    background-color: #D6E6F2;
+}
+
+.main-div-section3{
+    background-color: #B9D7EA;
+}
+
+
+/*############################## Footer ##############################*/
+.footer-bar{
+    background-color: #769FCD;
+}
+
+.footer-copyright{
+    text-align: center;
+}
+
+.footer-nav{
+    margin: auto 0;
+}
+
+
+.footer-nav-ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
