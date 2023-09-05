@@ -23,9 +23,15 @@ form.addEventListener('submit', e => {
   fetch(scriptURL, { method: 'POST', body: new FormData(form) })
     .then(response => {
       console.log('Success!', response)
-      alert('Message Recived')
+      // alert('Message Recived')
+      showModal()
       const frm = document.getElementsByName('submit-to-google-sheet')[0];
       frm.reset()
     })
     .catch(error => console.error('Error!', error.message))
 })
+
+function showModal() {
+  var modal = document.getElementById("defaultModal");
+  modal.classList.remove("hidden");
+}
